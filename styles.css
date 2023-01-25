@@ -63,7 +63,7 @@ article p{
     float:left;
     line-height:.70em;
     margin-left:-8px;
-   
+  /* referenced https://stackoverflow.com/questions/20733383/how-to-correctly-align-a-drop-cap-in-html-css*/
     
 } 
 
