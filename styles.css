@@ -53,12 +53,16 @@ p{
     font-size:18px;
     color: #212121;
 }
+article p{
+    margin-left:10px;
+}
  article p::first-letter{
    /* display:inline-block;*/
     font-size:6rem;
     color:lightgray;
     float:left;
-    line-height:.75em;
+    line-height:.70em;
+    margin-left:-8px;
    
     
 } 
@@ -68,7 +72,7 @@ p{
     list-style-type:none;
     margin-top:0px;
     margin-bottom:4em;
-    padding:0;
+    padding:0 50px 0 0;
     justify-content:space-between;
 }
 
@@ -100,6 +104,9 @@ p{
     text-decoration:none;
     font-size: 18px;
     border-right: 2px solid lightgrey;
+}
+#last{
+    border-right:1px solid white;
 }
 
 
