@@ -1,16 +1,105 @@
 body{
     border-left: 5px solid lightgray;
     min-height: 100vh;
-    font-family:sans-serif;
+    font-family:Assistant, sans-serif;
     max-width:1000px;
     margin: 0 auto;
     padding: 1rem 2rem;
+    letter-spacing:90%;
 }
 
 h1{
     color:tomato;
+    font-size:60px;
+    font-weight:300;
+    padding:0;
+    margin-bottom:0px;
+    
+}
+h2{
+    font-weight:300;
+    font-size:35px;
+    padding:0;
+    margin-top:0px;
+    margin-bottom:5px;
+}
+article h2{
+    font-size:40px;
 }
 
+h4{
+    font-size:20px;
+    font-weight:400;
+    color:lightgrey;
+}
 img{
     width:100%;
 }
+
+time{
+    font-size:40px;
+    color:lightgrey;
+    font-weight:300;
+    
+}
+
+article{
+    margin-bottom:4em;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2em;
+    /*display:inline-block;*/
+}
+p{
+    font-size:18px;
+    color: #212121;
+}
+ article p::first-letter{
+   /* display:inline-block;*/
+    font-size:6rem;
+    color:lightgray;
+    float:left;
+    line-height:.75em;
+   
+    
+} 
+
+.top-nav{
+    display:flex;
+    list-style-type:none;
+    margin-top:0px;
+    margin-bottom:4em;
+    padding:0;
+    justify-content:space-between;
+}
+
+.top-nav li a{
+    color:lightgrey;
+    font-size:25px;
+    font-weight:200;
+    text-decoration:underline;
+    text-underline-offset:6px; /*referenced https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset*/
+}
+
+.continues{
+    display:flex;
+    justify-content:flex-end;
+    color:tomato;
+    font-weight:bold;
+    font-size:1.1em;
+    text-decoration:none;
+}
+.footer-nav{
+    display:flex;
+    list-style-type:none;
+    padding:0;
+    justify-content:flex-start;
+}
+.footer-nav li a{
+    color:tomato;
+    padding:0px 3px;
+    text-decoration:none;
+    font-size: 18px;
+    border-right: 2px solid lightgrey;
+}
+
+
