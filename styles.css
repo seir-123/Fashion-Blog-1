@@ -6,7 +6,7 @@ body {
 }
 
 #h1 {
-    color: rgb(231, 62, 62);
+    color: tomato;
     font-size: 60px;
     font-family: 'Roboto', sans-serif;
     margin: auto;
@@ -23,6 +23,7 @@ margin-top:30px;
     justify-content:space-between;
     font-size: 20px;
     list-style: none;
+    padding: 0%;
 }
 
 #par1 {
@@ -54,4 +55,17 @@ color:red;
 display:flex;
 justify-content:right;
 }
+.image {
+    width:100%;
+}
+article {
+    margin-bottom: 4rem;
+}
 
+article p::first-letter {
+    font-size: 5rem;
+    color: lightgray;
+}
+#trademark {
+    color:lightgray;
+}
