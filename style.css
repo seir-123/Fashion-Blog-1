@@ -1,0 +1,37 @@
+
+border{
+    width: 5px lightgrey;
+    
+}
+body{
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+    padding: 1rem 2rem;
+
+}
+
+h1{
+    color: tomato;
+}
+h2{
+    color: black;
+}
+image{
+    width: 100%;
+}
+nav{
+    list-style-type: none;
+    color-text: lightgray;
+}
+.container{
+    align-content: space-between;
+}
+footer{
+    color: tomato;
+}
+h4{
+    text-align: right;
+    font-weight: bold;
+    color: tomato;
+}
