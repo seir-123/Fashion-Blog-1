@@ -1,4 +1,60 @@
-.first-letter {
-    font-size: 35px;
-    line-height: 70px;
+html{
+    border-left: solid 5px lightgray;
 }
+header {
+    padding-bottom: 30px;
+}
+body {
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: auto;
+    font-family: sans-serif;
+    padding: 1rem 2rem 1rem 2rem;
+}
+h1 {
+    color: tomato;
+    font-size: 60px;
+}
+img {
+    width: 100%;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-ul {
+    color: lightgray;
+    font-size: 20px;
+}
+.footer-ul {
+    color: tomato;
+    font-size: 20px;
+}
+.continue {
+    color: tomato;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+article {
+    margin-bottom: 4rem;
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 2rem;
+}
+time, h3 {
+    font-size: 40px;
+}
+p::first-letter {
+    font-size: 40px;
+    line-height: 70px;
+    color: lightgray;
+}
+h4 {
+    color:lightgray;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
