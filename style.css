@@ -1,0 +1,55 @@
+html {
+    border-width: 5px;
+    border-color: black;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0auto;
+}
+
+header {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+main { 
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+footer {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.top1 {
+    color: lightgray;
+}
+
+.foot {
+    color: tomato;
+}
