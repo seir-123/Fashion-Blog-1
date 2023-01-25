@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/* I thought this font from google was a bit closer so I gave it a try */
+
+html{
+
+}
+
+body{
+font-family: Quicksand;
+min-height: 100%;
+max-width: 1000px;
+}
+
+header{
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.nav-bar{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+}
+
+h1{
+  font-size: 60px;
+  color: tomato;
+  text-align: left;
+  margin-bottom: 10px;
+
+}
+
+h2{
+  padding: 0;
+  margin-top: 0;
+  font-size: 35px;
+}
+
+main{
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+h4{
+  color: tomato;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+a{
+  color: lightgray;
+  font-size: 30px;
+  
+}
+
+img{
+  margin-top: 0px;
+  width: 100%;
+}
+
+#drop-case {
+  float: left;
+  line-height: 85%;
+  width: .7em;
+  font-size: 400%;
+  padding-right: 10px;
+  color: lightgray;
+}
+
+p{
+  font-size: 20px;
+  color:gray;
+}
+
+#date{
+  color: lightgray;
+  margin-top: 90px;
+  margin-bottom: 20px;
+
+}
+
+article{
+  margin-bottom: 4rem;
+}
+
+#article1{
+  padding-bottom: 0;
+}
+
+footer{
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.nav-footer{
+  list-style: none;
+  color: tomato;
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  font-size: 25px;
+  font-family: helvetica;
+  margin-top: 50px;
+}
+
+
+
+#vertical-line{
+  color:lightgray;
+  padding: 5px;
+}
+
+#copyright-footer{
+  color: lightgray;
+}
