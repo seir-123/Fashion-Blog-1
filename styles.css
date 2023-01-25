@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:wght@300&display=swap');
+
+html {
+  border-left: 5px solid lightgray;
+}
+
+header, main, footer {
+  min-height: 100%;
+  font-family: "Aboreto", cursive;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+h1 {
+  color: tomato;
+  font-size: 42px;
+}
+
+img {
+  width: 100%;
+}
+
+.navigation-top {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: lightgray;
+}
+
+.navigation-bottom {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  color: tomato;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.date {
+  color: lightgray;
+  font-size: 25px;
+}
+
+.more {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  color: tomato;
+  font-family: "Montserrat", sans-serif;
+}
+
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+.content::first-letter {
+  color: lightgray;
+  font-size: 70px;
+}
+
+.content {
+  font-family: "Montserrat", sans-serif;
+}
+
+#copyright {
+  color: lightgray;
+}
