@@ -21,13 +21,15 @@ h3{
     font-family: 'Unbounded', cursive;;
 }
 ul{
+    display: flex;
+    flex-direction: row; 
     padding:0;
+    list-style-type: none;
 }
-li{
-    display: inline-block;
+.top_ul{
+    justify-content: space-between;
 }
 .top{
-    padding-right: 20px;
     font-size:20px;
     color:lightgray;
     opacity: 0.4;
