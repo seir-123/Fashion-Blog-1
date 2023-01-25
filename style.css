@@ -44,6 +44,9 @@ article {
     border-bottom: solid 1px lightgray;
     padding-bottom: 2rem;
 }
+time {
+    color: lightgray;
+}
 time, h3 {
     font-size: 40px;
 }
