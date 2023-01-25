@@ -1,0 +1,77 @@
+html{
+    border: solid 5px lightgray;
+}
+body{
+    min-height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    font-size:50px;
+    color:tomato;
+}
+h2{
+    font-size:30px;
+}
+h3{
+    color:lightgray;
+}
+.oh{
+    color:black;
+    font-family: 'Unbounded', cursive;;
+}
+ul{
+    padding:0;
+}
+li{
+    display: inline-block;
+}
+.top{
+    padding-right: 20px;
+    font-size:20px;
+    color:lightgray;
+    opacity: 0.4;
+}
+article{
+    margin-bottom:4rem;
+    padding-bottom:2rem;
+    border: 1px solid lightgray;
+}
+img{
+    width:100%;
+}
+p{
+    font-family: 'Shadows Into Light', cursive;
+}
+p::first-letter{
+    font-weight: bold;
+    color:lightgray;
+    opacity: 0.4;
+    font-size: 350%;
+    float: left;
+}
+.con{
+    color:tomato;
+    float: right;
+    font-weight: bold;
+}
+hr{
+    margin: 80px 0;
+}
+/* could have been used li a{} too */
+.bot{
+    text-decoration: none;
+    color:tomato;
+}
+#licence{
+    color:lightgray;
+}
+header{
+    padding: 1rem 2rem;
+}
+main{
+    padding: 1rem 2rem;
+}
+footer{
+    padding: 1rem 2rem;
+}
