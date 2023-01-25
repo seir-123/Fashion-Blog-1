@@ -1,0 +1,57 @@
+body {
+    border-left: solid 5px lightgray;
+    padding: 50px;
+    margin:35px;
+    width: 100%;
+}
+
+#h1 {
+    color: rgb(231, 62, 62);
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+margin-top:30px;
+
+}
+
+.ul1  {
+    display:flex;
+    justify-content:space-between;
+    font-size: 20px;
+    list-style: none;
+}
+
+#par1 {
+    font-size: 35px;
+    font-family:'Roboto', sans-serif ;
+}
+#date1 {
+    font-size: 30px;
+    color:lightgray;
+}
+
+#par2 {
+    font-size: 35px;
+    font-family:'Roboto', sans-serif ;
+}
+
+#date2 {
+    font-size: 30px;
+    color:lightgray;
+}
+.text {
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+
+.continue1 {
+color:red;
+display:flex;
+justify-content:right;
+}
+
