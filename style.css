@@ -1,9 +1,5 @@
-html {
-    border-width: 5px;
-    border-color: lightgray;
-    border-style: none none none solid;
-}
 body {
+    border-left: 5px solid lightgray;
     min-height: 100vh;
     max-width: 1000px;
     font-family: sans-serif;
