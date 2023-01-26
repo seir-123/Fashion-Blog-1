@@ -1,37 +1,70 @@
 
-border{
-    width: 5px lightgrey;
-    
+html {
+    background-color: white
 }
+
 body{
     min-height: 100%;
     font-family: sans-serif;
     max-width: 1000px;
+    margin: auto;
     padding: 1rem 2rem;
+    font-size: 16px;
+    color: gray;
 
 }
 
 h1{
     color: tomato;
+    font-style: oblique;
+    font-weight: 100;
 }
 h2{
     color: black;
 }
+h3 {
+    color: lightgray;
+}
+main {
+    font-weight: 200;
+}
 image{
     width: 100%;
 }
-nav{
-    list-style-type: none;
-    color-text: lightgray;
+nav ul{
+    list-style-type:none;
+    color: lightgray;
+    display: flex; 
+    justify-content: space-between;
+    color-scheme: red;
+    border-style: inset;
+    border-width: 3px;
+    
 }
+article {
+    margin-bottom: 4rem;
+    border-radius: 1px lightgray;
+    padding-bottom: 2rem;
+
+}
+
 .container{
     align-content: space-between;
 }
+
 footer{
-    color: tomato;
+    color: darkgray;
+    }
+    
+class {
+    color: pink;
 }
+
 h4{
     text-align: right;
     font-weight: bold;
     color: tomato;
+}
+ul {
+    color: lightgray;
 }
