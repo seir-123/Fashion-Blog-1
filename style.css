@@ -1,11 +1,10 @@
 .nav-list {
+    display: flex;
     justify-content: space-between;
-    flex-flow: row;
     list-style: none;
-
 }
-ul{
-    list-style: none;
+a {
+    color:lightgray
 }
 
 header {
@@ -13,6 +12,15 @@ header {
 }
 h1{
     color:tomato;
+    font-family: 'Aboreto', cursive;
+}
+h2 {
+    font-family: 'Aboreto', cursive;
+}
+
+h5 {
+    font-family: 'Aboreto', cursive;
+    color: lightgray
 }
 main { 
     padding: 1rem 2rem 1rem 2rem;
@@ -23,9 +31,26 @@ footer {
 html {
     border-left: 5px solid lightblue; 
 }
-body {
+p {
     min-height: 100%;
     font-family: sans-serif;
     max-width: 1000px;
-
 }
+
+
+
+.nav-list2 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a2 { 
+    color:tomato
+}
+h3 {
+    font-family: 'Aboreto', cursive;
+    color: tomato;
+    text-align: right;
+}
+
