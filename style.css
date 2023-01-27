@@ -1,0 +1,52 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: auto;
+    border-left: solid lightgray
+}
+
+header {
+    padding: 1rem 2rem 1rem 2rem
+}  
+
+main {
+    padding: 1rem 2rem 1rem 2rem
+}
+
+h1 {
+    color: tomato
+}
+
+footer {
+    padding: 1rem 2rem 1rem 2rem
+}
+
+img {
+    max-width: 100%
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+
+.nav {
+    padding: 0;
+    list-style-type: none;
+    color: lightgray;
+    display: inline-block;
+}
+ 
+
+.navv {
+    padding: 0;
+    list-style-type: none;
+    color: tomato
+}
+
+article {
+    margin: 4rem;
+    border-bottom: solid lightgray;
+    padding: 0 0 2rem 0
+}
