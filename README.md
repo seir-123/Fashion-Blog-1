@@ -75,7 +75,3 @@ ___
 ## Submission Guidelines
 * Pull Requests must be submitted utilizing these guidelines: [PR Guidelines](https://github.com/bmorataya3/Pull-Request-Template)
 
-___
-### Prep for JavaScript Data Types
-
-Once you've completed the requirements, review this [short video](https://www.youtube.com/watch?time_continue=4&v=_r_LCMBvxmg&feature=emb_logo) on JavaScript Data Types so you're ready for the upcoming lectures.
