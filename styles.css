@@ -1,0 +1,103 @@
+body {
+  margin: auto;
+  min-height: 100vh;
+  max-width: 1000px;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  border-left: 5px solid lightgray;
+}
+
+header,
+main,
+footer {
+  padding: 1rem 2rem;
+}
+
+header {
+  padding-left: 2rem;
+}
+
+h1,
+h2 {
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+h1 {
+  color: tomato;
+}
+
+h2 {
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar ul {
+  font-size: 1rem;
+  display: flex;
+  padding-left: 0;
+  list-style-type: none;
+  justify-content: space-between;
+  color: lightgray;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+article {
+  margin: 0 0 4rem 0;
+  border-bottom: 1px solid lightgray;
+  padding: 0 0 2rem 0;
+}
+
+article p::first-letter {
+  color: lightgray;
+  font-size: 500%;
+  float: left;
+}
+
+span {
+  color: lightgray;
+  font-size: 2rem;
+}
+
+footer a {
+  color: tomato;
+  margin: 0 0 4rem 0;
+  padding: 0 0 2rem 0;
+}
+
+footer ul {
+  color: tomato;
+  margin: 0 0 4rem 0;
+  padding: 0 0 2rem 0;
+}
+
+.continues {
+  display: flex;
+  justify-content: right;
+  color: tomato;
+}
+
+h4 {
+  color: lightgray;
+}
+
+footer ul li:not(:last-child)::after {
+  content: " | ";
+  color: lightgray;
+}
